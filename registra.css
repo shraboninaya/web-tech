@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #222;
+}
+
+.form-box {
+    width: 650px;
+    margin: auto;
+    padding: 12px 20px;
+    background-color: #d9d2e5;
+    border: 1px solid #999;
+}
+
+
+/* Top Steps */
+
+.steps {
+    font-size: 11px;
+    margin-bottom: 8px;
+}
+
+
+/* Red Headings */
+
+h3 {
+    color: #b22222;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+/* Form Lines */
+
+.line {
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+    min-height: 20px;
+}
+
+.line label {
+    width: 190px;
+    text-align: right;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+
+/* Text Boxes */
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 210px;
+    height: 18px;
+    border: 1px solid #777;
+    box-sizing: border-box;
+}
+
+
+/* Select Box */
+
+select {
+    background-color: white;
+}
+
+
+/* Radio and Checkbox */
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 2px 4px 2px 0;
+}
+
+
+/* Small Input */
+
+.small-input {
+    width: 55px !important;
+}
+
+
+/* Paragraph */
+
+p {
+    margin: 3px 0 5px 0;
+    font-size: 11px;
+}
+
+
+/* Checkboxes */
+
+.check {
+    margin: 5px 0;
+}
+
+
+/* Comments */
+
+.comments {
+    display: flex;
+    margin-top: 10px;
+}
+
+.comments label {
+    width: 190px;
+    text-align: right;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 300px;
+    height: 70px;
+    border: 1px solid #777;
+}
+
+
+/* Contact */
+
+.contact {
+    display: flex;
+    margin-top: 10px;
+}
+
+.contact > label {
+    width: 190px;
+    text-align: right;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+
+/* Buttons */
+
+.buttons {
+    text-align: center;
+    margin-top: 15px;
+}
+
+button {
+    padding: 3px 12px;
+    margin: 2px;
+    font-size: 12px;
+}
+
+
+/* Bottom Information */
+
+.bottom {
+    margin-top: 12px;
+    padding-top: 8px;
+    border-top: 1px solid #999;
+    font-size: 11px;
+}
